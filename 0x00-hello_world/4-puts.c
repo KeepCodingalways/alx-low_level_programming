@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * A programm that prints out the dtring 'Programming is like building a multil
+ * A programm that prints out a string of characters.
  */
 int main(void)
 {
