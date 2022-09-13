@@ -6,13 +6,11 @@
  */
 int main(void)
 {
-	char alpbet[] = "a, b, c, d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,z";
-	int i = 0;
+	int i;
 
-	while (i < sizeof(alpbet))
+	for (i = 97; i <= 122; i++)
 	{
-		putchar(tolower(alpbet[i]));
-		i++;
+		putchar(i);
 	}
 	return (0);
 }
